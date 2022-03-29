@@ -40,5 +40,5 @@ def testingLOL():
 		selectVerb = random.choice(verbRoots) + "ing"
 		selectNoun = random.choice(nouns)
 		output = selectVerb+" "+selectNoun
-		print(output)
+		
 		return output
