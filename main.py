@@ -4,9 +4,15 @@
 from libs import pyFlavText
 import time
 
-num1 = int(input("do:"))
-num2 = 0
-while num2 < num1:
-	instance = pyFlavText.testingLOL()
-	num2+=1
-	time.sleep(0.5)
+def MaximumFlava():
+	# define parameters
+	num1 = int(input("do:"))
+	num2 = 0
+	timeBetw = float(input("seconds between: "))
+	print("")
+	while num2 < num1:
+		output = pyFlavText.testingLOL()
+		num2+=1
+		time.sleep(timeBetw)
+
+MaximumFlava()
