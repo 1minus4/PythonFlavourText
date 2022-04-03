@@ -14,9 +14,9 @@ def MaximumFlava():
 	# loop to produce output desired no. of times
 	while num2 < num1:
 		output = pyFlavText.testingLOL()
-		strLenny = len(output)
+		# strLenny = len(output)
 		# for debugging purposes
-		print(strLenny) # ( ͡° ͜ʖ ͡°)
+		# print(strLenny) # ( ͡° ͜ʖ ͡°)
 		num2+=1
 		time.sleep(timeBetw)
 
